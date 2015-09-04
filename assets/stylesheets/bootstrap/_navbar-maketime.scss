@@ -1,0 +1,19 @@
+.navbar-nav.navbar-right {
+  .nav-item {
+    float: right;
+  }
+
+  .nav-link {
+    display: block;
+    padding-top:    .425rem;
+    padding-bottom: .425rem;
+
+    + .nav-link {
+      margin-right: 1rem;
+    }
+  }
+
+  .nav-item + .nav-item {
+    margin-right: 1rem;
+  }
+}
