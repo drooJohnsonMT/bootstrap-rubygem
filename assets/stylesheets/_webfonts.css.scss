@@ -1,0 +1,43 @@
+@font-face{
+    font-family:'ProximaNova';
+    src:asset-url('ProximaNova-Reg-webfont.eot');
+    src:asset-url('ProximaNova-Reg-webfont.eot?#iefix') format('embedded-opentype'),
+        asset-url('ProximaNova-Reg-webfont.woff') format('woff'),
+        asset-url('ProximaNova-Reg-webfont.ttf') format('truetype'),
+        asset-url('ProximaNova-Reg-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family:'ProximaNova';
+    src:asset-url('ProximaNova-Bold-webfont.eot');
+    src:asset-url('ProximaNova-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+        asset-url('ProximaNova-Bold-webfont.woff') format('woff'),
+        asset-url('ProximaNova-Bold-webfont.ttf') format('truetype'),
+        asset-url('ProximaNova-Bold-webfont.svg') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face{
+    font-family:'DinCondWeb';
+    src:asset-url('DINWeb-Cond.eot');
+    src:asset-url('DINWeb-Cond.eot?#iefix') format('embedded-opentype'),
+        asset-url('DINWeb-Cond.woff') format('woff'),
+        asset-url('DINWeb-Cond.ttf') format('truetype'),
+        asset-url('DINWeb-Cond.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family:'DinCondWeb';
+    src:asset-url('DINWeb-CondBold.eot');
+    src:asset-url('DINWeb-CondBold.eot?#iefix') format('embedded-opentype'),
+        asset-url('DINWeb-CondBold.woff') format('woff'),
+        asset-url('DINWeb-CondBold.ttf') format('truetype'),
+        asset-url('DINWeb-CondBold.svg') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
