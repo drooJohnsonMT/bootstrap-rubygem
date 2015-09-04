@@ -27,6 +27,10 @@ module Bootstrap
       File.join assets_path, 'javascripts'
     end
 
+    def fonts_path
+      File.join assets_path, 'fonts'
+    end
+
     def assets_path
       @assets_path ||= File.join gem_path, 'assets'
     end
@@ -57,6 +61,7 @@ module Bootstrap
           'bootstrap',
           :version               => Bootstrap::VERSION,
           :path                  => gem_path,
+          :fonts_directory       => fonts_path,
           :stylesheets_directory => stylesheets_path,
           :templates_directory   => File.join(gem_path, 'templates')
       )
@@ -69,6 +74,7 @@ module Bootstrap
     def register_sprockets
       Sprockets.append_path(stylesheets_path)
       Sprockets.append_path(javascripts_path)
+      Sprockets.append_path(fonts_path)
     end
   end
 end
