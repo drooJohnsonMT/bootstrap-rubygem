@@ -4,6 +4,10 @@ This is the future home of the Bootstrap v4 ruby gem for Ruby on Rails (Sprocket
 
 There has not been a release yet, but if you'd like to try out the latest development version, see the instructions below.
 
+## TODO
+
+[] Add example of .navbar-right class usage.
+
 ## Installation
 
 Please see the appropriate guide for your environment of choice:
