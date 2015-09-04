@@ -1,43 +1,43 @@
 @font-face{
     font-family:'ProximaNova';
-    src:url('fonts/ProximaNova-Reg-webfont.eot');
-    src:url('fonts/ProximaNova-Reg-webfont.eot?#iefix') format('embedded-opentype'),
-        url('fonts/ProximaNova-Reg-webfont.woff') format('woff'),
-        url('fonts/ProximaNova-Reg-webfont.ttf') format('truetype'),
-        url('fonts/ProximaNova-Reg-webfont.svg') format('svg');
+    src:font-url('ProximaNova-Reg-webfont.eot');
+    src:font-url('ProximaNova-Reg-webfont.eot?#iefix') format('embedded-opentype'),
+        font-url('ProximaNova-Reg-webfont.woff') format('woff'),
+        font-url('ProximaNova-Reg-webfont.ttf') format('truetype'),
+        font-url('ProximaNova-Reg-webfont.svg') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face{
     font-family:'ProximaNova';
-    src:url('fonts/ProximaNova-Bold-webfont.eot');
-    src:url('fonts/ProximaNova-Bold-webfont.eot?#iefix') format('embedded-opentype'),
-        url('fonts/ProximaNova-Bold-webfont.woff') format('woff'),
-        url('fonts/ProximaNova-Bold-webfont.ttf') format('truetype'),
-        url('fonts/ProximaNova-Bold-webfont.svg') format('svg');
+    src:font-url('ProximaNova-Bold-webfont.eot');
+    src:font-url('ProximaNova-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+        font-url('ProximaNova-Bold-webfont.woff') format('woff'),
+        font-url('ProximaNova-Bold-webfont.ttf') format('truetype'),
+        font-url('ProximaNova-Bold-webfont.svg') format('svg');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face{
     font-family:'DinCondWeb';
-    src:url('fonts/DINWeb-Cond.eot');
-    src:url('fonts/DINWeb-Cond.eot?#iefix') format('embedded-opentype'),
-        url('fonts/DINWeb-Cond.woff') format('woff'),
-        url('fonts/DINWeb-Cond.ttf') format('truetype'),
-        url('fonts/DINWeb-Cond.svg') format('svg');
+    src:font-url('DINWeb-Cond.eot');
+    src:font-url('DINWeb-Cond.eot?#iefix') format('embedded-opentype'),
+        font-url('DINWeb-Cond.woff') format('woff'),
+        font-url('DINWeb-Cond.ttf') format('truetype'),
+        font-url('DINWeb-Cond.svg') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face{
     font-family:'DinCondWeb';
-    src:url('fonts/DINWeb-CondBold.eot');
-    src:url('fonts/DINWeb-CondBold.eot?#iefix') format('embedded-opentype'),
-        url('fonts/DINWeb-CondBold.woff') format('woff'),
-        url('fonts/DINWeb-CondBold.ttf') format('truetype'),
-        url('fonts/DINWeb-CondBold.svg') format('svg');
+    src:font-url('DINWeb-CondBold.eot');
+    src:font-url('DINWeb-CondBold.eot?#iefix') format('embedded-opentype'),
+        font-url('DINWeb-CondBold.woff') format('woff'),
+        font-url('DINWeb-CondBold.ttf') format('truetype'),
+        font-url('DINWeb-CondBold.svg') format('svg');
     font-weight: bold;
     font-style: normal;
 }
