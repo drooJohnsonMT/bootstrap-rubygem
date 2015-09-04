@@ -27,6 +27,10 @@ module Bootstrap
       File.join assets_path, 'javascripts'
     end
 
+    def fonts_path
+      File.join assets_path, 'fonts'
+    end
+
     def assets_path
       @assets_path ||= File.join gem_path, 'assets'
     end
